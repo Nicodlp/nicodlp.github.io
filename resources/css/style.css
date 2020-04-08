@@ -512,6 +512,11 @@ header {
 	margin-top: 55px;
 }
 
+.main-nav ul {
+	float: right;
+	display: inline-block;
+}
+
 .main-nav li {
 	display: inline-block;
 	margin-left: 40px;
