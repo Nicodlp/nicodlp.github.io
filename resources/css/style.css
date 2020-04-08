@@ -1,3 +1,4 @@
+
 /*
 ORange color: e67e22
 
@@ -512,18 +513,21 @@ header {
 	margin-top: 55px;
 }
 
-.main-nav ul {
-	float: right;
+.main-nav li {
+	margin-top: 55px;
 	display: inline-block;
+	float: right;
+	margin-right: 30px;
 }
 
-.main-nav li {
+.main-nav li a {
 	display: inline-block;
-	margin-left: 40px;
+	float: right;
 }
 
 .main-nav li a:link,
 .main-nav li a:visited {
+	float: right;
 	padding: 8px 0;
 	color: #fff;
 	text-decoration: none;
@@ -554,7 +558,13 @@ header {
 }
 
 .sticky .main-nav {
-	margin-top: 18px;
+	margin-top: 8px;
+}
+
+.sticky .main-nav li {
+	margin: 2px 0;
+	display: inline-block;
+	margin-left: 30px;
 }
 
 .sticky .main-nav li a:link,
